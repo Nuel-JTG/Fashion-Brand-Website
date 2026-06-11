@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | ATELIER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-logo">ATELIER</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+        </ul>
+    </nav>
+
+    <section class="about-section">
+        <div class="about-text">
+            <h2>Our Philosophy</h2>
+            <p>Founded with a commitment to conscious design, ATELIER focuses on clean architectural lines, sustainable materials, and enduring style alternatives to fast-moving trends.</p>
+        </div>
+
+        <div class="form-container">
+            <h3>Join Our Newsletter / Contact Us</h3>
+            <form onsubmit="event.preventDefault; alert('Message sent successfully!');">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required placeholder="Your Email Address">
+                </div>
+                <div class="form-group1">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Your Message"></textarea>                
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 ATELIER. Built for SEN182 Frontend Project.</p>
+    </footer>
+
+</body>
+</html>
