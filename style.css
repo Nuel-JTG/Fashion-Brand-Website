@@ -136,31 +136,6 @@ body {
     color: white;
 }
 
-.category-card3 {
-    background-image: url();
-    background-size: cover;
-    flex: 1;
-    max-width: 500px;
-    height: 300px;
-    background-color: #eee;
-    display: flex;
-    align-items: flex-end;
-    padding: 20px;
-    transition: transform 0.3s ease;
-}
-
-.category-card4 {
-    background-image: url();
-    background-size: cover;
-    flex: 1;
-    max-width: 500px;
-    height: 300px;
-    background-color: #eee;
-    display: flex;
-    align-items: flex-end;
-    padding: 20px;
-    transition: transform 0.3s ease;
-}
 
 .category-card:hover {
     transform: translateY(-5px);
@@ -169,15 +144,6 @@ body {
 .category-card2:hover {
     transform: translateY(-5px);
 }
-
-.category-card3:hover {
-    transform: translateY(-5px);
-}
-
-.category-card4:hover {
-    transform: translateY(-5px);
-}
-
 
 /* Shop Container & CSS Grid Layout */
 .shop-container {
@@ -242,6 +208,9 @@ body {
 .price {
     color: #777;
     margin-bottom: 15px;
+}
+.shop_footer{
+    margin-top: 40px;
 }
 
 /* Required Modal Styling (CSS Positioning) */
