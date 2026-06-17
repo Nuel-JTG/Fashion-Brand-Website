@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | ATELIER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-logo">ATELIER</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html" class="active">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <main class="shop-container">
+        <h2>Our Collection</h2>
+        
+<!-- CSS Grid Product Layout -->
+<div class="product-grid">
+    
+    <!-- Product 1 Card -->
+    <div class="product-card">
+        <div class="product-image-placeholder"></div>
+        <h3>Oversized Wool Coat</h3>
+        <p class="price">$189.00</p>
+        <!-- When clicked, pass the Name, Price, and Description to our openModal function -->
+        <button class="btn" onclick="openModal('Oversized Wool Coat', '$189.00', 'Premium wool blend coat featuring dropped shoulders.')">Quick View</button>
+    </div>
+
+    <!-- Product 2 Card -->
+    <div class="product-card">
+        <div class="product-image-placeholder2"></div>
+        <h3>Silk Monochromatic Shirt</h3>
+        <p class="price">$120.00</p>
+        <button class="btn" onclick="openModal('Silk Monochromatic Shirt', '$120.00', '100% mulberry silk classic button-down shirt.')">Quick View</button>
+    </div>
+
+    <!-- Product 3 Card -->
+    <div class="product-card">
+        <div class="product-image-placeholder3"></div>
+        <h3>Tailored Linen Trousers</h3>
+        <p class="price">$145.00</p>
+        <button class="btn" onclick="openModal('Tailored Linen Trousers', '$145.00', 'Breathable organic linen trousers cut in a modern silhouette.')">Quick View</button>
+    </div>
+
+</div>
+
+<!-- The Modal Component -->
+<div id="productModal" class="modal">
+    <div class="modal-content">
+        <!-- When the 'X' is clicked, run the closeModal function -->
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <h2 id="modalTitle">Product Title</h2>
+        <p id="modalPrice" class="modal-price"></p>
+        <p id="modalDesc"></p>
+        <button class="btn" onclick="alert('Added to cart!')">Add to Bag</button>
+    </div>
+</div>
+
+    <footer class="shop_footer">
+        <p>&copy; 2026 ATELIER. Built for SEN182 Frontend Project.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
