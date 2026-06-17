@@ -52,7 +52,7 @@ body {
 
 /* Page Hero Showcase */
 .hero {
-    background-image: url(Background.png.jpg);
+    background-image: url(Background.png.jpeg);
     background-size: cover;
     background-position: center;
     height: 70vh;
@@ -109,7 +109,7 @@ body {
 }
 
 .category-card {
-    background-image: url(card1.jpg);
+    background-image: url(card1.jpeg);
     background-size: cover;
     flex: 1;
     max-width: 800px;
@@ -122,7 +122,7 @@ body {
 }
 
 .category-card2 {
-    background-image: url(card2.jpg);
+    background-image: url(card2.jpeg);
     background-size: cover;
     background-position: center;
     flex: 1;
